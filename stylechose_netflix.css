@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    background-color: pink;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.watching {
+    color:white;
+    font-size: 45px;
+}
+
+.logomarca{
+    text-align: left;
+}
+ 
+.relative {
+    position: absolute;
+    right: 430px;
+ }
+
+ .img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    position: absolute;
+    right: 130px;
+    left: 330px;
+    top: 230px;
+}
+
+.img2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    position: absolute;
+    right: 430px;
+    left: 530px;
+    top: 230px;
+}
+
+img {
+    border-radius: 4%;
+}
+
+.redborder {
+    Border: 1px solid white;
+}
+
+.img3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    position: absolute;
+    right: 430px;
+    left: 730px;
+    top: 230px;
+}
+
+.casal1 {
+    background: url('img_casaheroi.png');
+}
+
+
+a :hover {
+    border: solid red;
+}
